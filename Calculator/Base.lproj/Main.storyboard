@@ -18,9 +18,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DQs-hI-LGD">
                                 <rect key="frame" x="0.0" y="44" width="414" height="409"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="label1" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aio-Au-KzK">
-                                        <rect key="frame" x="25" y="43" width="348" height="311"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="label1" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aio-Au-KzK">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="409"/>
                                         <accessibility key="accessibilityConfiguration" identifier="label1"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                         <nil key="textColor"/>
@@ -28,6 +27,11 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="aio-Au-KzK" firstAttribute="leading" secondItem="DQs-hI-LGD" secondAttribute="leading" id="0FH-bO-VYE"/>
+                                    <constraint firstAttribute="trailing" secondItem="aio-Au-KzK" secondAttribute="trailing" id="NhE-jX-SBy"/>
+                                    <constraint firstItem="aio-Au-KzK" firstAttribute="top" secondItem="DQs-hI-LGD" secondAttribute="top" id="rhg-pM-Htl"/>
+                                </constraints>
                             </view>
                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="znU-ap-agm">
                                 <rect key="frame" x="0.0" y="453" width="103.5" height="82"/>
@@ -212,6 +216,7 @@
                             <constraint firstItem="nxU-lG-4y0" firstAttribute="width" secondItem="fvD-tK-eJT" secondAttribute="width" multiplier="0.25" id="JAd-sy-md4"/>
                             <constraint firstItem="fvD-tK-eJT" firstAttribute="trailing" secondItem="46g-rR-bIY" secondAttribute="trailing" id="Jjr-TH-bPw"/>
                             <constraint firstItem="vRp-ol-Uz9" firstAttribute="leading" secondItem="nxU-lG-4y0" secondAttribute="trailing" id="Jrz-yu-tWc"/>
+                            <constraint firstItem="aio-Au-KzK" firstAttribute="bottom" secondItem="TjS-TE-j12" secondAttribute="top" id="KCc-l7-vVp"/>
                             <constraint firstItem="1pk-n9-8Ms" firstAttribute="leading" secondItem="fvD-tK-eJT" secondAttribute="leading" id="Kqj-5q-egN"/>
                             <constraint firstItem="46g-rR-bIY" firstAttribute="width" secondItem="fvD-tK-eJT" secondAttribute="width" multiplier="0.25" id="LgD-0m-FQJ"/>
                             <constraint firstItem="i2Z-yb-g5U" firstAttribute="width" secondItem="fvD-tK-eJT" secondAttribute="width" multiplier="0.25" id="Ljf-CD-TMd"/>
@@ -258,6 +263,7 @@
                             <constraint firstItem="Uuu-TL-8Mo" firstAttribute="height" secondItem="fvD-tK-eJT" secondAttribute="height" multiplier="0.1" id="oTZ-gL-xrq"/>
                             <constraint firstItem="RFN-bK-6gQ" firstAttribute="height" secondItem="fvD-tK-eJT" secondAttribute="height" multiplier="0.1" id="rYF-gg-i80"/>
                             <constraint firstItem="fvD-tK-eJT" firstAttribute="bottom" secondItem="1pk-n9-8Ms" secondAttribute="bottom" id="rlN-bD-AL1"/>
+                            <constraint firstItem="aio-Au-KzK" firstAttribute="leading" secondItem="fvD-tK-eJT" secondAttribute="leading" constant="25" id="s9A-me-tXQ"/>
                             <constraint firstItem="Q5X-3A-Pw7" firstAttribute="height" secondItem="fvD-tK-eJT" secondAttribute="height" multiplier="0.1" id="sUf-SF-Hf0"/>
                             <constraint firstItem="Km3-kY-rgF" firstAttribute="height" secondItem="fvD-tK-eJT" secondAttribute="height" multiplier="0.1" id="t4Z-xk-mJp"/>
                             <constraint firstItem="nxm-AF-eRe" firstAttribute="leading" secondItem="fvD-tK-eJT" secondAttribute="leading" id="wBI-zv-Ie3"/>
