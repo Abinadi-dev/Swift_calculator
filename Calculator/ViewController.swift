@@ -74,8 +74,14 @@ class ViewController: UIViewController {
 
         if operation == 12{ //Divide
             
-        value = previousNumber / value
-        label.text = String(value)
+            if(value.isZero){
+                label.text = "Not a number"
+            }
+            else{
+                value = previousNumber / value
+                label.text = String(value)
+            }
+            
             
 
         }
