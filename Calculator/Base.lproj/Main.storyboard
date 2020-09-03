@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="409"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="label1" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aio-Au-KzK">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="409"/>
+                                        <rect key="frame" x="25" y="0.0" width="364" height="409"/>
                                         <accessibility key="accessibilityConfiguration" identifier="label1"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                         <nil key="textColor"/>
@@ -28,8 +28,7 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="aio-Au-KzK" firstAttribute="leading" secondItem="DQs-hI-LGD" secondAttribute="leading" id="0FH-bO-VYE"/>
-                                    <constraint firstAttribute="trailing" secondItem="aio-Au-KzK" secondAttribute="trailing" id="NhE-jX-SBy"/>
+                                    <constraint firstAttribute="trailing" secondItem="aio-Au-KzK" secondAttribute="trailing" constant="25" id="NhE-jX-SBy"/>
                                     <constraint firstItem="aio-Au-KzK" firstAttribute="top" secondItem="DQs-hI-LGD" secondAttribute="top" id="rhg-pM-Htl"/>
                                 </constraints>
                             </view>
